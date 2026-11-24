@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <path id="arcoArriba" d="M 32 100 A 68 68 0 0 1 168 100"/>
+    <path id="arcoAbajo" d="M 26 100 A 74 74 0 0 0 174 100"/>
+  </defs>
+  <!-- circulo de fondo -->
+  <circle cx="100" cy="100" r="96" fill="#D32F2F"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#FFC107" stroke-width="4"/>
+  <circle cx="100" cy="100" r="56" fill="#B71C1C"/>
+  <!-- llama -->
+  <path d="M100 52 C 112 72, 134 84, 130 112 C 127 134, 114 146, 100 146 C 86 146, 72 134, 70 112 C 68 96, 78 88, 84 76 C 86 88, 92 94, 97 94 C 94 80, 92 66, 100 52 Z" fill="#FFC107"/>
+  <path d="M100 96 C 108 108, 117 116, 115 128 C 113 138, 107 142, 100 142 C 93 142, 86 138, 85 128 C 84 118, 93 110, 100 96 Z" fill="#FFECB3"/>
+  <!-- textos -->
+  <text font-family="Montserrat, Arial, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" letter-spacing="4">
+    <textPath href="#arcoArriba" startOffset="50%" text-anchor="middle">FALLA</textPath>
+  </text>
+  <text font-family="Montserrat, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" letter-spacing="2">
+    <textPath href="#arcoAbajo" startOffset="50%" text-anchor="middle" dominant-baseline="hanging">PARQUE ALCOSA</textPath>
+  </text>
+  <circle cx="30" cy="100" r="3" fill="#FFC107"/>
+  <circle cx="170" cy="100" r="3" fill="#FFC107"/>
+</svg>
